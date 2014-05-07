@@ -85,6 +85,7 @@ bool Board::placeChecker(int x, int y, char icon)
 	if (board[y][x] != 'X' && board[y][x] != 'O')
 	{
 		board[y][x] = icon;
+		returned = true;
 	}
 	return returned;
 }
