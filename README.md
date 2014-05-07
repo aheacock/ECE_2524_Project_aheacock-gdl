@@ -12,3 +12,5 @@ and attempting to make it more engaging and open source. Using a simple base for
 element of the Unx design philosophy. This project is based off of other implementations of simple tic-tac-toe games,
 and combines them so that they are easily understood and clear in their implementation. This project makes use of Object-Oriented
 design, which incorporates many of the key elements of Unix design, which is that the sum of a project is more than it's parts.
+
+The game does not have a function which will reset it when someone wins, this is a feature we plan to add. The main function uses an infinite loop to play the game continuously. When the reset functionality is added this will allow multiple games to be played without restarting the program.
