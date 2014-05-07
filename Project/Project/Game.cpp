@@ -15,7 +15,11 @@ void Game::playeroneturn(ostream& out, istream& in)
 	a.printSmallBoard(board, out);
 	out << "Choose spot";
 	in >> input;
-	a.playSpot(board, input, 'X');
+	if (!(a.playSpot(board, input, 'X')))
+	{
+		out << "YOU DUMB MOTHER ******** *******";
+	}
+
 
 			//bool playSpot(int board, int spot, char icon);
 	
@@ -35,7 +39,10 @@ void Game::playertwoturn(ostream& out, istream& in)
 	a.printSmallBoard(board, out);
 	out << "Choose spot";
 	in >> input;
-	a.playSpot(board, input, 'O');
+	if (!(a.playSpot(board, input, 'O')))
+	{
+		out << "YOU DUMB MOTHER ******** *******";
+	}
 
 	if ((a.checkWinner()) == 'O')
 	{
