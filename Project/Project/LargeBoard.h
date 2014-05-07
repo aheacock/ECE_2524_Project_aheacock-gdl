@@ -19,7 +19,7 @@ public:
 	bool checkDraw() const;
 	char checkWinner() const;
 	bool playSpot(int board, int spot, char icon);
-
+	void printSmallBoard(int spot, ostream& out);
 
 };
 

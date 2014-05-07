@@ -129,3 +129,10 @@ void LargeBoard::printBoard(ostream& out)
 
 	out << "     |     |     " << endl << endl;
 }
+
+void LargeBoard::printSmallBoard(int spot, ostream& out)
+{
+	int x, y;
+	getCoordinates(x, y, spot);
+	board[y][x].printBoard(out);
+}
