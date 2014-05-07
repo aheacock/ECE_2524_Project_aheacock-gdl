@@ -6,6 +6,7 @@
 #include "Board.h"
 using std::string;
 using std::ostream;
+using std::endl;
 class LargeBoard
 {
 private:

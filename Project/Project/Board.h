@@ -16,7 +16,7 @@ public:
 	void printBoard(ostream& out);
 	bool checkDraw() const;
 	char checkWinner() const;
-	
+	bool placeChecker(int x, int y, char icon);
 
 };
 

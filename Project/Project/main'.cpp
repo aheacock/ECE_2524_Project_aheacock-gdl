@@ -1,10 +1,10 @@
-#include "Board.h"
+#include "LargeBoard.h"
 
 using std::cout;
 
 int main()
 {
-	Board b;
+	LargeBoard b;
 	b.printBoard(cout);
 
 	return 0;

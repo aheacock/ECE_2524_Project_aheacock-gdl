@@ -78,3 +78,13 @@ bool Board::checkDraw() const
 	}
 	return returned;
 }
+
+bool Board::placeChecker(int x, int y, char icon)
+{
+	bool returned = false;
+	if (board[y][x] != 'X' && board[y][x] != 'O')
+	{
+		board[y][x] = icon;
+	}
+	return returned;
+}
