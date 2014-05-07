@@ -16,8 +16,8 @@ private:
 
 public:
  Game();
- void playeroneturn(ostream& out, istream& in);
- void playertwoturn(ostream& out, istream& in);
+ bool playeroneturn(ostream& out, istream& in);
+ bool playertwoturn(ostream& out, istream& in);
 
 	int checkforwin();
 	
