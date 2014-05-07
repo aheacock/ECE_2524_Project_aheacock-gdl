@@ -17,8 +17,9 @@ bool Game::playeroneturn(ostream& out, istream& in)
 	a.printSmallBoard(board, out);
 	out << "Choose spot";
 	in >> input;
-	a.playSpot(board, input, 'X');
-	a.printSmallBoard(board, out);
+	if(!(a.playSpot(board, input, 'X')));
+	out << "error!";
+
 			//bool playSpot(int board, int spot, char icon);
 	
 	if ((a.checkWinner())=='X')
@@ -40,8 +41,9 @@ bool Game::playertwoturn(ostream& out, istream& in)
 	a.printSmallBoard(board, out);
 	out << "Choose spot";
 	in >> input;
-	a.playSpot(board, input, 'O');
-	a.printSmallBoard(board, out);
+	if (!(a.playSpot(board, input, 'O')));
+	out << "error!";
+
 	if ((a.checkWinner()) == 'O')
 	{
 		out << "player one wins!!";
