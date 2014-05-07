@@ -5,6 +5,7 @@
 #include<iostream>
 #include "LargeBoard.h"
 
+using std::istream;
 using std::string;
 using std::ostream;
 class Game
@@ -15,8 +16,8 @@ private:
 
 public:
  Game();
- void playeroneturn(ostream& out);
- void playertwoturn(ostream& out);
+ void playeroneturn(ostream& out, istream& in);
+ void playertwoturn(ostream& out, istream& in);
 
 	int checkforwin();
 	
