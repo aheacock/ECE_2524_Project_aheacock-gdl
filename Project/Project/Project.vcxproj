@@ -84,6 +84,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Board.cpp" />
+    <ClCompile Include="Game.cpp" />
     <ClCompile Include="LargeBoard.cpp" />
     <ClCompile Include="main%27.cpp" />
   </ItemGroup>
