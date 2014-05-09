@@ -15,9 +15,9 @@ private:
 
 
 public:
- Game();
- bool playeroneturn(ostream& out, istream& in);
- bool playertwoturn(ostream& out, istream& in);
+	Game();
+	bool playeroneturn(ostream& out, istream& in);
+	bool playertwoturn(ostream& out, istream& in);
 
 	int checkforwin();
 	
