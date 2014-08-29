@@ -1,4 +1,4 @@
-A game called Tic-Tac-Toe Inception
+##A game called Tic-Tac-Toe Inception
 
 This project is intended to provide the backend for a Tic-Tac-Toe game for which a GUI will need to be created.
 We are including functions to play the game from the command line, however they only function in a basic way, so that the project
