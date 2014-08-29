@@ -11,7 +11,7 @@ key elements of Unix design, which is that the sum of a project is more than it'
 The game does not have a function which will reset it when someone wins, this is a feature we plan to add. The main function uses an infinite loop to play the game continuously. 
 When the reset functionality is added this will allow multiple games to be played without restarting the program. 
 
-dirtymop is gdl's github username.
+[dirtymop](https://github.com/dirtymop) is gdl's github username.
 
 In order to run the game, compile the all files, and execute the main.cpp. This contains the function which plays the game.
 Because this is designed as a backend for a GUI based program, the gameplay function is incredibly simple, and the outputs are designed so that they could be
